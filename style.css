@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,73 +7,81 @@
 
 }
 
-body{
+body {
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
 }
 
-header{
+header {
+    z-index: 1;
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height:11vh;
+    height: 11vh;
     border-bottom: 1px solid rgb(203, 201, 201);
 }
 
-header>.left{
+header>.left {
     display: flex;
-    gap:10px;
+    gap: 10px;
     font-size: 17px;
     font-weight: 600;
 }
 
-header>.middle{
+header>.middle {
     display: flex;
     gap: 45px;
 }
 
-header>.middle>a{
+header>.middle>a {
     text-decoration: none;
     color: rgb(98, 97, 97);
     font-weight: 600;
 }
 
-header>.right>button{
-    height:35px;
+header>.middle>a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header>.right>button {
+    height: 35px;
     width: fit-content;
     text-align: center;
     margin: 5px;
     padding: 10px 15px 30px 15px;
-    border-radius:10px;
+    border-radius: 10px;
     border: none;
     font-size: 15px;
     cursor: pointer;
     font-weight: 700;
 }
 
-.login{
+header>.right>button:hover {
+    transform: scale(1.1);
+}
+
+.login {
     background: #f1f2f4;
 }
 
-.get{
+.get {
     color: white;
     background: rgba(0, 0, 0, 0.833);
 }
 
-.section1{
-    height:100vh;
+.section1 {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 170px;
 }
 
-.section1>h4{
+.section1>h4 {
     font-weight: 600;
     color: rgb(46, 46, 46);
     line-height: 1.2em;
@@ -82,23 +90,24 @@ header>.right>button{
     padding: 10px 15px 10px 15px;
 }
 
-.section1>h1{
+.section1>h1 {
     font-weight: 600;
     font-size: 80px;
     color: rgb(46, 46, 46);
     line-height: 1.2em;
 }
 
-.section1>h3{
+.section1>h3 {
     font-weight: 100;
-    color: #707070;;
+    color: #707070;
+    ;
     line-height: 1.2em;
     margin-top: 30px;
 }
 
-.section1>button{
+.section1>button {
     opacity: 1;
-    background-color:#2E2E2E;
+    background-color: #2E2E2E;
     color: white;
     margin-top: 35px;
     padding: 16px 40px;
@@ -107,64 +116,215 @@ header>.right>button{
     cursor: pointer;
 }
 
-.section1>p{
-    font-size:12px;
+.section1>p {
+    font-size: 12px;
     color: #6B6B78;
     margin-top: 5px;
 }
 
-.avatars{
+.avatars {
     display: flex;
     margin-top: 20px;
-    gap:10px
+    gap: 10px;
 }
 
-.images img{
-    border-radius:50%;
+.avatars>.images img {
+    border-radius: 50%;
 }
 
-.stars span{
+.avatars>.stars span {
     margin-right: 5px;
 }
 
-.stars p{
+.avatars>.stars p {
     font-size: 13px;
     color: #6B6B78;
 }
 
 .checked {
     color: orange;
-  }
+}
 
-.section2{
+.section2 {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top:30px;
-    background: blueviolet;
+    margin-top: 30px;
+    /* background: blueviolet; */
 }
 
-.section2 img{
-    width:80%;
+.section2 img {
+    width: 80%;
     opacity: 1;
     border: 1px solid #dfdede;
     border-radius: 16px;
     box-shadow: 0 4px 4px #0000000a;
-}  
+}
 
-/* .section3{
-    background: pink;
+.section3, .section4, .section5, .section6 {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: space-between;
+    align-items: center;
+    gap: 100px;
 }
 
-.section3 .top{
+.section3{
+    margin: 200px 250px 0px 250px;
+}
+
+
+.top {
+    display: grid;
+    place-items: center;
+}
+
+.top>h4 {
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    line-height: 1.2em;
+    background: #f1f2f4;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    width: fit-content;
+}
+
+.top>h1 {
+    font-weight: 600;
+    font-size: 58px;
+    color: rgb(46, 46, 46);
+    line-height: 1.5em;
+}
+
+.bottom {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 210px;
-} */
+    gap: 40px;
+}
+
+.bottom .left>h4 {
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    line-height: 1.2em;
+    background: #fee9cb;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    width: fit-content;
+}
+
+.bottom>.left>h2 {
+    width: 600px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.bottom>.left>p {
+    margin-top: 60px;
+    font-size: 20px;
+    width: 580px;
+    color: #707070
+}
+
+.bottom>.right {
+    margin-top: -30px;
+}
+
+.bottom>.right>img {
+    width: 600px;
+}
+
+.message{
+    display: flex;
+    height:100px;
+}
+
+.message>img{
+    margin-top: 100px;
+    height: 80px;
+}
+
+.message>p{
+    line-height: 1.3em;
+    margin-top: 40px;
+    height: 110px;
+    background: #2e2e2e;
+    color:white;
+    border-radius: 12px 12px 12px 4px;
+    padding: 15px 15px 15px 15px;
+}
+.message>p>span{
+    position: relative;
+    top:10px;
+    background: transparent;
+    color:#8d8d9b;
+}
+
+.section4{
+    margin: 200px 250px 0px 250px;
+}
+
+.section5{
+    margin: 120px 250px 0px 250px;
+}
+
+.section6{
+    margin: 90px 250px 0px 250px;
+}
+
+.section4>.bottom>.left>.message,.section6>.bottom>.left>.message{
+    margin-left: 180px;
+}
+.section4>.bottom>.left>.message>p{
+    width: 360px;
+    border-radius: 12px 12px 4px 12px;
+}
+
+.section5>.bottom>.left>.message>p{
+    height: 140px;
+}
+
+.section6>.bottom>.left>.message>p{
+    width: 390px;
+    border-radius: 12px 12px 4px 12px;
+}
+
+.section4>.bottom .left>h4{
+    background: #cceafd;
+}
+.section5>.bottom .left>h4{
+    background: #ddf4e4;
+}
+.section6>.bottom .left>h4{
+    background: #fdded6;
+}
+
+.section7{
+    height: 100vh;
+    margin: 180px 250px 0px 250px;
+}
+.bottom-cards{
+    background: palegreen;
+    display: flex;
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: fit-content;
+    background: #f1f2f4;
+    padding: 50px;
+}
+
+.card>img{
+    width: 100px;
+}
+.card-head{
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    line-height: 1.2em;
+    background: #fee9cb;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    width: fit-content;
+}
