@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css"
-        integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Assignment</title>
 </head>
@@ -17,14 +14,14 @@
     <div class="parent">
         <header>
             <div class="left">
-                <i class="ri-arrow-up-s-fill"></i>
+                <img src="./logo.png" height="24px" width="24px" alt="">
                 <p>Milton</p>
             </div>
             <div class="middle">
-                <a href="">Features</a>
-                <a href="">Testimonial</a>
-                <a href="">Pricing</a>
-                <a href="">FAQs</a>
+                <a href="#features">Features</a>
+                <a href="#testimonial">Testimonial</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQs</a>
                 <a href="">Blog</a>
             </div>
             <div class="right">
@@ -32,9 +29,8 @@
                 <button class="get">Get started</button>
             </div>
         </header>
-
-        <div class="section1">  
-            <h4>An other way to manage time️</h4>
+        <div class="section1">
+            <h4>An other way to manage time</h4>
             <h1>Your new favorite<br>calendar <span>🗓️</span> app</h1>
             <h3>Here you should explain how cool your app is. Remember,<br>focus on the benefits for your users, not on
                 the features</h3>
@@ -43,16 +39,16 @@
 
             <div class="avatars">
                 <div class="images">
-                    <img src="https://www.shutterstock.com/image-vector/young-smiling-man-avatar-brown-600nw-2261401207.jpg"
-                        alt="" width="40px">
-                    <img src="https://www.shutterstock.com/image-vector/young-smiling-man-avatar-brown-600nw-2261401207.jpg"
-                        alt="" width="40px">
-                    <img src="https://www.shutterstock.com/image-vector/young-smiling-man-avatar-brown-600nw-2261401207.jpg"
-                        alt="" width="40px">
-                    <img src="https://www.shutterstock.com/image-vector/young-smiling-man-avatar-brown-600nw-2261401207.jpg"
-                        alt="" width="40px">
-                    <img src="https://www.shutterstock.com/image-vector/young-smiling-man-avatar-brown-600nw-2261401207.jpg"
-                        alt="" width="40px">
+                    <img id="img1" src="https://framerusercontent.com/images/bl39AdGKIqJR3rmOzhkPvTf65vQ.png" alt=""
+                        width="43px">
+                    <img id="img2" src="https://framerusercontent.com/images/SK28bkE1orcey0vf79oQZPz0yA.png" alt=""
+                        width="43px">
+                    <img id="img3" src="https://framerusercontent.com/images/2fFFaPF5ZAByC4EYJKR5YVw5yw.png" alt=""
+                        width="43px">
+                    <img id="img4" src="https://framerusercontent.com/images/OE9bY7VmHaJNicG3Xf3xtAyeRDo.png" alt=""
+                        width="43px">
+                    <img id="img5" src="https://framerusercontent.com/images/kxNdSiluF7hrK3n2KLRcdCNhTU.png" alt=""
+                        width="43px">
                 </div>
                 <div class="stars">
                     <span class="fa fa-star checked"></span>
@@ -63,12 +59,18 @@
                     <p>From 200+ happy users</p>
                 </div>
             </div>
+            <a href="https://yashbahuguna.netlify.app/" target="_blank" class="name">Made by Yash Bahuguna</a>
+            <!-- <div class="name">
+                <a href=""></a>
+                <button onclick="window.open('https://yashbahuguna.netlify.app/', '_blank');">Yash Bahuguna</button>
+            </div> -->
+            
         </div>
         <div class="section2">
             <img src="https://framerusercontent.com/images/eOkQipcAuByHjPvicAhsR8PzC0.png?scale-down-to=2048"
                 alt="superpage">
         </div>
-        <div class="section3">
+        <div class="section3" id="features">
             <div class="top">
                 <h4>Our main features 🦸🏼</h4>
                 <h1>Discover your new superpowers</h1>
@@ -83,9 +85,9 @@
                     <div class="message">
                         <img src="https://framerusercontent.com/images/Pm9TTOkN341IYtePLdPGmhG0E.png" alt="">
                         <p>I tested many calendar apps. This app is the <br> best of all! It saves me hours of time.
-                            <br> <span>Carla, Head of Finance</span> 
+                            <br> <span>Carla, Head of Finance</span>
                         </p>
-                    </div>    
+                    </div>
                 </div>
 
                 <div class="right">
@@ -102,17 +104,19 @@
                     <img src="https://framerusercontent.com/images/EgCwW6bpD4t2JQoyjgySRkUXc.png?scale-down-to=1024"
                         alt="">
                 </div>
-                
+
                 <div class="left">
                     <h4>Smart Reminders & Task</h4>
                     <h2>Never miss an important deadline or event again</h2>
-                    <p>Never miss an important deadline again with our AI-driven  notifications. Our app intelligently analyzes your schedule to prioritize what's most important, keeping you on track and ensuring your day is productive and stress-free.</p>
+                    <p>Never miss an important deadline again with our AI-driven notifications. Our app intelligently
+                        analyzes your schedule to prioritize what's most important, keeping you on track and ensuring
+                        your day is productive and stress-free.</p>
                     <div class="message">
                         <p>I love how user-friendly this app is! It's so <br> easy to add events and set reminders!
-                            <br> <span>Adam, entrepreneur</span> 
+                            <br> <span>Adam, entrepreneur</span>
                         </p>
                         <img src="https://framerusercontent.com/images/CPGgYEBeFy4gDXe5dDzh1qjQG1w.png" alt="">
-                    </div>    
+                    </div>
                 </div>
 
 
@@ -128,12 +132,13 @@
                         calendar platforms, import events from emails, and add participants with just a few clicks.</p>
                     <div class="message">
                         <img src="https://framerusercontent.com/images/1OwzdZHx9ElDw1ZAavs6WGWBSw.png" alt="">
-                        <p>I've tried a lot of calendar apps, but this one <br> is by far the best! It's so intuitive and
-                            <br> customizable, and it has all the features I 
+                        <p>I've tried a lot of calendar apps, but this one <br> is by far the best! It's so intuitive
+                            and
+                            <br> customizable, and it has all the features I
                             <br> need.
-                            <br> <span>Annie, Designer</span> 
+                            <br> <span>Annie, Designer</span>
                         </p>
-                    </div>    
+                    </div>
                 </div>
 
                 <div class="right">
@@ -149,17 +154,19 @@
                     <img src="https://framerusercontent.com/images/ow5cq9Ercs5KlWFqhMUsdUkCl8.png?scale-down-to=1024"
                         alt="">
                 </div>
-                
+
                 <div class="left">
                     <h4>Smart Reminders & Task</h4>
                     <h2>Never miss an important deadline or event again</h2>
-                    <p>Never miss an important deadline again with our AI-driven notifications. Our app intelligently analyzes your schedule to prioritize what's most important, keeping you on track and ensuring your day is productive and stress-free.</p>
+                    <p>Never miss an important deadline again with our AI-driven notifications. Our app intelligently
+                        analyzes your schedule to prioritize what's most important, keeping you on track and ensuring
+                        your day is productive and stress-free.</p>
                     <div class="message">
-                        <p>I've recommended this app to all my friends <br> and colleagues! 
-                            <br> <span>Karl, CTO of a cool startup</span> 
+                        <p>I've recommended this app to all my friends <br> and colleagues!
+                            <br> <span>Karl, CTO of a cool startup</span>
                         </p>
                         <img src="https://framerusercontent.com/images/lKaaStgbmdIe8TfrIkFlKzHazV0.png" alt="">
-                    </div>    
+                    </div>
                 </div>
 
 
@@ -168,43 +175,904 @@
         <div class="section7">
             <div class="top">
                 <h4>And so much more... 💼</h4>
-                <h1 style="text-align: center;" >Our features to make your life <br> easier</h1>
+                <h1 style="text-align: center;">Our features to make your life <br> easier</h1>
             </div>
 
             <div class="bottom-cards">
                 <div class="card">
                     <img src="https://framerusercontent.com/images/psdpn17XuwZ0NdeAgqZ1B9jIs.svg" alt="">
                     <div class="card-head">Cross-Device Sync</div>
-                    <p>Keep your schedule in sync across all your <br> devices, ensuring seamless access to your <br> calendar, events, and tasks wherever you go.</p>
+                    <p>Keep your schedule in sync across all your <br> devices, ensuring seamless access to your <br>
+                        calendar, events, and tasks wherever you go.</p>
                 </div>
                 <div class="card">
                     <img id="ci2" src="https://framerusercontent.com/images/9zLLT2PHM1pdm0cmjDvqVV6u4.svg" alt="">
-                    <div class="card-head" id="ch2" >Auto Event Import</div>
-                    <p>Automatically import events from emails, social media, and other sources, so you never miss a beat or have to manually input details.</p>
+                    <div class="card-head" id="ch2">Auto Event Import</div>
+                    <p>Automatically import events from emails, social media, and other sources, so you never miss a
+                        beat or have to manually input details.</p>
                 </div>
                 <div class="card">
                     <img id="ci3" src="https://framerusercontent.com/images/MnBPtp8lNOwne9QGiLZLBCkZK9k.svg" alt="">
-                    <div class="card-head" id="ch3" >Task Delegation</div>
-                    <p>Easily assign tasks to team members, family, or friends, promoting shared responsibility and seamless collaboration.</p>
+                    <div class="card-head" id="ch3">Task Delegation</div>
+                    <p>Easily assign tasks to team members, family, or friends, promoting shared responsibility and
+                        seamless collaboration.</p>
                 </div>
                 <div class="card">
-                    <img id="ci4" src="https://framerusercontent.com/images/VFrv8s9Ou5YYTsx7jkOfyXmAm2Y.png?scale-down-to=512" alt="">
-                    <div class="card-head" id="ch4" >Voice Command Integration</div>
-                    <p>Quickly create events, set reminders, or reschedule appointments with voice commands, thanks to compatibility with popular virtual assistants.</p>
+                    <img id="ci4"
+                        src="https://framerusercontent.com/images/VFrv8s9Ou5YYTsx7jkOfyXmAm2Y.png?scale-down-to=512"
+                        alt="">
+                    <div class="card-head" id="ch4">Voice Command Integration</div>
+                    <p>Quickly create events, set reminders, or reschedule appointments with voice commands, thanks to
+                        compatibility with popular virtual assistants.</p>
                 </div>
                 <div class="card">
-                    <img id="ci5" src="https://framerusercontent.com/images/l2ZsBz5u7WqpiyCOQ4jeJmYCYIc.png?scale-down-to=512" alt="">
-                    <div class="card-head" id="ch5" >Customizable Alerts</div>
-                    <p>Personalize notification types and timings for events, tasks, and goals, ensuring you stay on track and informed without feeling overwhelmed.</p>
+                    <img id="ci5"
+                        src="https://framerusercontent.com/images/l2ZsBz5u7WqpiyCOQ4jeJmYCYIc.png?scale-down-to=512"
+                        alt="">
+                    <div class="card-head" id="ch5">Customizable Alerts</div>
+                    <p>Personalize notification types and timings for events, tasks, and goals, ensuring you stay on
+                        track and informed without feeling overwhelmed.</p>
                 </div>
                 <div class="card">
-                    <img id="ci6" src="https://framerusercontent.com/images/RGak3EPkyg9scIKkezsY8Rn7E.png?scale-down-to=512" alt="">
-                    <div class="card-head" id="ch6" >Privacy Protection</div>
-                    <p>Safeguard your personal information and event details with our robust security measures, including end-to-end encryption and optional password protection.</p>
+                    <img id="ci6"
+                        src="https://framerusercontent.com/images/RGak3EPkyg9scIKkezsY8Rn7E.png?scale-down-to=512"
+                        alt="">
+                    <div class="card-head" id="ch6">Privacy Protection</div>
+                    <p>Safeguard your personal information and event details with our robust security measures,
+                        including end-to-end encryption and optional password protection.</p>
                 </div>
             </div>
         </div>
+        <div class="section8" id="testimonial">
+            <div class="top">
+                <h4>They already love our products 😍</h4>
+                <h1 style="text-align: center;">See what our users say about us</h1>
+            </div>
+
+            <div class="slide-track">
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/2fFFaPF5ZAByC4EYJKR5YVw5yw.png" alt="">
+                            <h4>“Just love it”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>This calendar app has been a lifesaver! I used to forget <br>important events, but now I'm
+                            always on top of my schedule.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Adam Moore</h4>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/bl39AdGKIqJR3rmOzhkPvTf65vQ.png" alt="">
+                            <h4>“The best time manager app”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>I love how user-friendly this app is! It's so easy to add events <br>and set reminders, and
+                            it's made my life so much more <br>organized.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Brad de Costa</h4>
+                        <p>Head of marketing</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/OE9bY7VmHaJNicG3Xf3xtAyeRDo.png" alt="">
+                            <h4>“Highly recommend”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>This app has saved me so much time and stress! I used to <br>constantly forget important
+                            dates, but now I can stay on top of <br>everything. You should test it!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Sophie Devilan</h4>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/2fFFaPF5ZAByC4EYJKR5YVw5yw.png" alt="">
+                            <h4>“Just love it”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>This calendar app has been a lifesaver! I used to forget <br>important events, but now I'm
+                            always on top of my schedule.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Adam Moore</h4>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/bl39AdGKIqJR3rmOzhkPvTf65vQ.png" alt="">
+                            <h4>“The best time manager app”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>I love how user-friendly this app is! It's so easy to add events <br>and set reminders, and
+                            it's made my life so much more <br>organized.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Brad de Costa</h4>
+                        <p>Head of marketing</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/OE9bY7VmHaJNicG3Xf3xtAyeRDo.png" alt="">
+                            <h4>“Highly recommend”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>This app has saved me so much time and stress! I used to <br>constantly forget important
+                            dates, but now I can stay on top of <br>everything. You should test it!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Sophie Devilan</h4>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/2fFFaPF5ZAByC4EYJKR5YVw5yw.png" alt="">
+                            <h4>“Just love it”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>This calendar app has been a lifesaver! I used to forget <br>important events, but now I'm
+                            always on top of my schedule.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Adam Moore</h4>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/bl39AdGKIqJR3rmOzhkPvTf65vQ.png" alt="">
+                            <h4>“The best time manager app”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>I love how user-friendly this app is! It's so easy to add events <br>and set reminders, and
+                            it's made my life so much more <br>organized.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Brad de Costa</h4>
+                        <p>Head of marketing</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/OE9bY7VmHaJNicG3Xf3xtAyeRDo.png" alt="">
+                            <h4>“Highly recommend”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>This app has saved me so much time and stress! I used to <br>constantly forget important
+                            dates, but now I can stay on top of <br>everything. You should test it!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Sophie Devilan</h4>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/2fFFaPF5ZAByC4EYJKR5YVw5yw.png" alt="">
+                            <h4>“Just love it”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>This calendar app has been a lifesaver! I used to forget <br>important events, but now I'm
+                            always on top of my schedule.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Adam Moore</h4>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/bl39AdGKIqJR3rmOzhkPvTf65vQ.png" alt="">
+                            <h4>“The best time manager app”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>I love how user-friendly this app is! It's so easy to add events <br>and set reminders, and
+                            it's made my life so much more <br>organized.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Brad de Costa</h4>
+                        <p>Head of marketing</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/OE9bY7VmHaJNicG3Xf3xtAyeRDo.png" alt="">
+                            <h4>“Highly recommend”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>This app has saved me so much time and stress! I used to <br>constantly forget important
+                            dates, but now I can stay on top of <br>everything. You should test it!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Sophie Devilan</h4>
+                        <p>Entrepreneur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-track" id="track2">
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/kxNdSiluF7hrK3n2KLRcdCNhTU.png" alt="">
+                            <h4>“Better than the rest”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>I've tried a lot of calendar apps, but this one is by far the best! <br>It's so intuitive and
+                            customizable, and it has all the features I <br>need. Game changer!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Annie Devy</h4>
+                        <p>Designer</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/SK28bkE1orcey0vf79oQZPz0yA.png" alt="">
+                            <h4>“Saves me time”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>Since I started using this app, I've saved so much time. I no <br>longer have to manually add
+                            appointments or set reminders - <br>it's all done for me!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Kyle Conord </h4>
+                        <p>CEO of RoastingOS</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/6uYgdEC1jGe6urbMtA9d0dgg.png" alt="">
+                            <h4>“No more forgotten appointments”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>I'm not the most organized person, but this app has made it so <br>easy for me to stay on top
+                            of things! I love how I can set <br>reminders and get notifications, and it's really helped
+                            me.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Michel O Neil</h4>
+                        <p>Head of sales</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/kxNdSiluF7hrK3n2KLRcdCNhTU.png" alt="">
+                            <h4>“Better than the rest”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>I've tried a lot of calendar apps, but this one is by far the best! <br>It's so intuitive and
+                            customizable, and it has all the features I <br>need. Game changer!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Annie Devy</h4>
+                        <p>Designer</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/SK28bkE1orcey0vf79oQZPz0yA.png" alt="">
+                            <h4>“Saves me time”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>Since I started using this app, I've saved so much time. I no <br>longer have to manually add
+                            appointments or set reminders - <br>it's all done for me!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Kyle Conord </h4>
+                        <p>CEO of RoastingOS</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/6uYgdEC1jGe6urbMtA9d0dgg.png" alt="">
+                            <h4>“No more forgotten appointments”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>I'm not the most organized person, but this app has made it so <br>easy for me to stay on top
+                            of things! I love how I can set <br>reminders and get notifications, and it's really helped
+                            me.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Michel O Neil</h4>
+                        <p>Head of sales</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/kxNdSiluF7hrK3n2KLRcdCNhTU.png" alt="">
+                            <h4>“Better than the rest”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>I've tried a lot of calendar apps, but this one is by far the best! <br>It's so intuitive and
+                            customizable, and it has all the features I <br>need. Game changer!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Annie Devy</h4>
+                        <p>Designer</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/SK28bkE1orcey0vf79oQZPz0yA.png" alt="">
+                            <h4>“Saves me time”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>Since I started using this app, I've saved so much time. I no <br>longer have to manually add
+                            appointments or set reminders - <br>it's all done for me!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Kyle Conord </h4>
+                        <p>CEO of RoastingOS</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/6uYgdEC1jGe6urbMtA9d0dgg.png" alt="">
+                            <h4>“No more forgotten appointments”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>I'm not the most organized person, but this app has made it so <br>easy for me to stay on top
+                            of things! I love how I can set <br>reminders and get notifications, and it's really helped
+                            me.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Michel O Neil</h4>
+                        <p>Head of sales</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/kxNdSiluF7hrK3n2KLRcdCNhTU.png" alt="">
+                            <h4>“Better than the rest”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>I've tried a lot of calendar apps, but this one is by far the best! <br>It's so intuitive and
+                            customizable, and it has all the features I <br>need. Game changer!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Annie Devy</h4>
+                        <p>Designer</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/SK28bkE1orcey0vf79oQZPz0yA.png" alt="">
+                            <h4>“Saves me time”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>Since I started using this app, I've saved so much time. I no <br>longer have to manually add
+                            appointments or set reminders - <br>it's all done for me!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Kyle Conord </h4>
+                        <p>CEO of RoastingOS</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/6uYgdEC1jGe6urbMtA9d0dgg.png" alt="">
+                            <h4>“No more forgotten appointments”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>I'm not the most organized person, but this app has made it so <br>easy for me to stay on top
+                            of things! I love how I can set <br>reminders and get notifications, and it's really helped
+                            me.</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Michel O Neil</h4>
+                        <p>Head of sales</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-track" id="track3">
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/zZvfJYc3fJqnLKF0fdBBk1r0Q.png" alt="">
+                            <h4>“Great for teamwork”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>If you're looking for a reliable and easy-to-use calendar app, look no further! This app has
+                            everything you need, and it's made my life so much easier</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Hanna Becker</h4>
+                        <p>Head of Marketing</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/cTol5VG6I9GfjzD7F78NMNG5kWo.png" alt="">
+                            <h4>“Life-changing”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>This app is so simple yet so powerful! I love how I can easily add events and see my entire
+                            schedule at a glance.</p><br>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Kevin Douglas</h4>
+                        <p>Product design at Lambda</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/Kg5LB2O8KkYlQ1azwquQKxtHnrM.png" alt="">
+                            <h4>"Incredible UI"</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>The UI of this app is just awesome, so fluid and well designed. The app has also all the
+                            features I need for my daily work. Just try it, you will fall in love!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Jordan Brian</h4>
+                        <p>Marketing Freelance</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/zZvfJYc3fJqnLKF0fdBBk1r0Q.png" alt="">
+                            <h4>“Great for teamwork”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>If you're looking for a reliable and easy-to-use calendar app, look no further! This app has
+                            everything you need, and it's made my life so much easier</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Hanna Becker</h4>
+                        <p>Head of Marketing</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/cTol5VG6I9GfjzD7F78NMNG5kWo.png" alt="">
+                            <h4>“Life-changing”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>This app is so simple yet so powerful! I love how I can easily add events and see my entire
+                            schedule at a glance.</p><br>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Kevin Douglas</h4>
+                        <p>Product design at Lambda</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/Kg5LB2O8KkYlQ1azwquQKxtHnrM.png" alt="">
+                            <h4>"Incredible UI"</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>The UI of this app is just awesome, so fluid and well designed. The app has also all the
+                            features I need for my daily work. Just try it, you will fall in love!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Jordan Brian</h4>
+                        <p>Marketing Freelance</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/zZvfJYc3fJqnLKF0fdBBk1r0Q.png" alt="">
+                            <h4>“Great for teamwork”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>If you're looking for a reliable and easy-to-use calendar app, look no further! This app has
+                            everything you need, and it's made my life so much easier</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Hanna Becker</h4>
+                        <p>Head of Marketing</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/cTol5VG6I9GfjzD7F78NMNG5kWo.png" alt="">
+                            <h4>“Life-changing”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>This app is so simple yet so powerful! I love how I can easily add events and see my entire
+                            schedule at a glance.</p><br>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Kevin Douglas</h4>
+                        <p>Product design at Lambda</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/Kg5LB2O8KkYlQ1azwquQKxtHnrM.png" alt="">
+                            <h4>"Incredible UI"</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>The UI of this app is just awesome, so fluid and well designed. The app has also all the
+                            features I need for my daily work. Just try it, you will fall in love!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Jordan Brian</h4>
+                        <p>Marketing Freelance</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/zZvfJYc3fJqnLKF0fdBBk1r0Q.png" alt="">
+                            <h4>“Great for teamwork”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body" style="margin-bottom:25px;">
+                        <p>If you're looking for a reliable and easy-to-use calendar app, look no further! This app has
+                            everything you need, and it's made my life so much easier</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Hanna Becker</h4>
+                        <p>Head of Marketing</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/cTol5VG6I9GfjzD7F78NMNG5kWo.png" alt="">
+                            <h4>“Life-changing”</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>This app is so simple yet so powerful! I love how I can easily add events and see my entire
+                            schedule at a glance.</p><br>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Kevin Douglas</h4>
+                        <p>Product design at Lambda</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-head">
+                        <div class="sh-left">
+                            <img src="https://framerusercontent.com/images/Kg5LB2O8KkYlQ1azwquQKxtHnrM.png" alt="">
+                            <h4>"Incredible UI"</h4>
+                        </div>
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <div class="slide-body">
+                        <p>The UI of this app is just awesome, so fluid and well designed. The app has also all the
+                            features I need for my daily work. Just try it, you will fall in love!</p>
+                    </div>
+                    <div class="slide-foot">
+                        <h4>Jordan Brian</h4>
+                        <p>Marketing Freelance</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="section9" id="pricing">
+            <div class="top">
+                <h4>Pricing and plans 💰</h4>
+                <h1 style="text-align: center;">Find the best plan for your needs</h1>
+            </div>
+            <div class="mid">
+                <div class="switches-container">
+                    <input type="radio" id="switchMonthly" name="switchPlan" value="Monthly" checked="checked" />
+                    <input type="radio" id="switchYearly" name="switchPlan" value="Yearly" />
+                    <label for="switchMonthly">Monthly</label>
+                    <label for="switchYearly">Annually</label>
+                    <div class="switch-wrapper">
+                        <div class="switch">
+                        </div>
+                    </div>
+                </div>
+                <h4>✨ save 30%</h4>
+            </div>
+            <div class="low">
+                <p>Best deal 🔥</p>
+                <div class="card">
+                    <h4 style="background-color: #f1f2f4;">Free</h4>
+                    <p class="first-para">So you can see how incredible our tool is. </p>
+                    <h1>$0 <span>/mo</span></h1>
+                    <p class="second-para">Free for ever</p>
+                    <button>Get Started</button>
+                    <p class="third-para">No credit card needed</p>
+                    <p class="fourth-para">What's included:</p>
+                    <ul>
+                        <li>A cool feature</li>
+                        <li>A basic feature</li>
+                        <li>A top feature with limitations</li>
+                        <li>An incredible feature so useful</li>
+                        <li>A top feature</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4 style="background-color: #fee9cb;">Starter</h4>
+                    <p class="first-para">So you can see how incredible our tool is. </p>
+                    <h1 id="price2">$19 <span>/mo</span></h1>
+                    <p class="second-para" id="para2">Billed monthly</p>
+                    <button>Get Started</button>
+                    <p class="third-para">7 days free trial no credit card needed</p>
+                    <p class="fourth-para">All Free features, plus:</p>
+                    <ul>
+                        <li>A cool feature</li>
+                        <li>A basic feature</li>
+                        <li>A top feature with limitations</li>
+                        <li>An incredible feature so useful</li>
+                        <li>A top feature</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4 style="background-color: #fdded6;">Pro</h4>
+                    <p class="first-para">So you can see how incredible our tool is. </p>
+                    <h1 id="price3">$49 <span>/mo</span></h1>
+                    <p class="second-para" id="para3">Billed monthly</p>
+                    <button>Get Started</button>
+                    <p class="third-para">7 days free trial no credit card needed</p>
+                    <p class="fourth-para">All Free features, plus:</p>
+                    <ul class="list">
+                        <li>A cool feature</li>
+                        <li>A basic feature</li>
+                        <li>A top feature with limitations</li>
+                        <li>An incredible feature so useful</li>
+                        <li>A premium feature</li>
+                        <li>You need this feature</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section10" id="faq">
+            <div class="top">
+                <h4>Relevant stuff, bla bla 📣</h4>
+                <h1 style="text-align: center;">Frequently asked questions</h1>
+            </div>
+            <div class="question-list">
+                <div class="question">
+                    <div class="left">
+                        <h3>Can I cancel my subscrition?</h3>
+                        <div class="cross">
+                            <div class="horizontal"></div>
+                            <div class="vertical"></div>
+                        </div>
+                    </div>
+                    <p class="ans">You can cancel your plan whenever you’d like. You’ll be downgraded to the free plan.
+                        You won’t be locked out of any projects that have paid plans.</p>
+                </div>
+                <div class="question">
+                    <div class="left">
+                        <h3>What happens when my trial ends?</h3>
+                        <div class="cross">
+                            <div class="horizontal"></div>
+                            <div class="vertical"></div>
+                        </div>
+                    </div>
+                    <p class="ans">When your trial period ends, your account will automatically be downgraded to our
+                        free plan, with limited features and functionality. To continue enjoying the full benefits of
+                        our service, you can upgrade to one of our paid plans at any time during or after the trial.
+                        Your data and settings will be preserved, ensuring a seamless transition as you move forward
+                        with our SaaS platform.</p>
+                </div>
+                <div class="question">
+                    <div class="left">
+                        <h3>What payment methods do you offer?</h3>
+                        <div class="cross">
+                            <div class="horizontal"></div>
+                            <div class="vertical"></div>
+                        </div>
+                    </div>
+                    <p class="ans">We aim to provide a seamless experience for our customers. We accept a variety of
+                        payment methods, including major credit cards (Visa, MasterCard, American Express, and
+                        Discover), PayPal, and bank transfers.</p>
+                </div>
+                <div class="question">
+                    <div class="left">
+                        <h3>What is your refund policy?</h3>
+                        <div class="cross">
+                            <div class="horizontal"></div>
+                            <div class="vertical"></div>
+                        </div>
+                    </div>
+                    <p class="ans">Our refund policy is designed with customer satisfaction in mind. If you are not
+                        satisfied with our service, you can request a full refund within 30 days of your initial
+                        purchase. To initiate the refund process, please contact our support team through the "Help"
+                        section in your account or email us at support@Milton.com, and we'll be happy to assist you.</p>
+                </div>
+                <div class="question">
+                    <div class="left">
+                        <h3>Do you offer discounts to educational institutions ?</h3>
+                        <div class="cross">
+                            <div class="horizontal"></div>
+                            <div class="vertical"></div>
+                        </div>
+                    </div>
+                    <p class="ans">Yes, we are happy to support educational institutions by offering special discounts
+                        on our SaaS platform. Please reach out to our sales team at sales@Milton.com with your
+                        institution's details, and we will provide you with more information on our exclusive
+                        educational pricing options.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section11">
+            <div class="top">
+                <h4>Last call Baby! 🚀</h4>
+                <h1 style="text-align: center;">Ready to start?</h1>
+            </div>
+            <p style="text-align: center;">Here is your last chance to explain how cool your app is. Focus <br> on the
+                benefits for your users, not on the features.</p>
+            <button>Get Started, it's free</button>
+
+            <div class="lower">
+                <div class="message">
+                    <img src="https://framerusercontent.com/images/BRu6MhHhp9NjldqU9TTCEAEoGKg.png" alt="">
+                    <p>I never missed a call again, the AI- <br> drivenfeature is a game changer for me!
+                        <br> <span>Adam, Solo founder</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="col1">
+                <heading>
+                    <img src="./logo.png" height="24px" width="24px" alt="">
+                    <p>Milton</p>
+                </heading>
+                <p>A short text explaining <br> why my startup is so cool</p>
+                <p>© My super start-up</p>
+                <div class="icons">
+                    <a href="https://twitter.com/pierre_jacquel" target="_blank"><img
+                            src="https://framerusercontent.com/images/vbouc63110hrN4mpMDBbBqxbgY.svg" alt=""></a>
+                    <a href="https://facebook.com" target="_blank"><img
+                            src="https://framerusercontent.com/images/A9DrwvI3tDOPLUSsJGHlIqt9SkI.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/in/yash-bahuguna-5373b4185/" target="_blank"><img
+                            src="https://framerusercontent.com/images/YSSiRnfV1Ebaxm94FWkCKCkc.svg" alt=""></a>
+                </div>
+
+            </div>
+            <div class="col2">
+                <p>Products</p>
+                <div class="list">
+                    <a href="#features">Features</a>
+                    <a href="#testimonial">Testimonial</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#faq">FAQs</a>
+                </div>
+            </div>
+            <div class="col3">
+                <p>Resources</p>
+                <div class="list">
+                    <a href="#">Change log</a>
+                    <a href="#">Help Center</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+            <div class="col4">
+                <p>Others</p>
+                <div class="list">
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="#">Affiliation</a>
+                    <a href="#">Press</a>
+                </div>
+            </div>
+            <div class="col5">
+                <p>From the blog</p>
+                <div class="list">
+                    <a href="">Mastering Your Schedule: Top Time <br> Management Techniques for Balancing <br> Work and
+                        Life</a>
+                    <a href="">Organizing Your Calendar for Enhanced <br> Productivity and Focus</a>
+                    <a href="">The Power of Prioritization: Effective <br> Strategies for Managing Your Time and <br>
+                        Tasks</a>
+                    <a href="">Maximizing Your Minutes: Essential Tips for <br> Streamlining Your Daily Routine and <br>
+                        Calendar</a>
+                </div>
+            </div>
+        </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
