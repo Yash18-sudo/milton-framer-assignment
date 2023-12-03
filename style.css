@@ -522,6 +522,14 @@ header>.right>button:hover {
     animation-play-state: paused;
 }
 
+.section8>#track2:hover {
+    animation-play-state: paused;
+}
+
+.section8>#track3:hover {
+    animation-play-state: paused;
+}
+
 .section8>.slide-track>.slide {
     background-color: white;
     display: flex;
