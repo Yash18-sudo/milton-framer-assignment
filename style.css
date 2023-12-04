@@ -1012,3 +1012,56 @@ footer>.col5>.list>a {
     line-height: 1.2em;
 }
 
+.anim {
+    opacity: 0;
+  }
+  
+.anim.is-visible {
+    opacity: 1;
+    animation: moveup 250ms linear forwards;
+  }
+
+@keyframes moveup{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+
+.animhead{
+    opacity: 0;
+    animation: moveh 300ms linear forwards;
+  }
+
+@keyframes moveh{
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;        
+    }
+}
+
+.animrotate {
+    opacity: 0;
+  }
+  
+.animrotate.is-visible {
+    opacity: 1;
+    animation: mover 200ms linear forwards;
+  }  
+
+@keyframes mover{
+    0%{
+        opacity: 0;
+        transform: rotate(-180deg);
+    }
+    100%{
+        opacity: 1;
+    }
+}
