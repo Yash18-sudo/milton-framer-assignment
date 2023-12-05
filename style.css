@@ -33,7 +33,26 @@ body {
     font-weight: 600;
     border:2px solid rgb(231, 231, 231);
     box-shadow: 0 4px 4px #0000000a;
+    cursor: alias;
+    
 }
+.name{
+    animation: pulse-animation 2s  infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(8, 8, 8, 0.302);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }
+
+@keyframes pulse{
+    25%  {transform: scaleY(0.9);}
+    75%  {transform: scaleY(10);}
+  }
 
 header {
     background-color: #fef9f6;
